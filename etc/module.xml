@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="CustomGento_DefaultStoreCodeRemoverMageworxCompatibility">
+        <sequence>
+            <module name="CustomGento_DefaultStoreCodeRemover"/>
+            <module name="Magento_Store"/>
+            <module name="MageWorx_SeoBase"/>
+        </sequence>
+    </module>
+</config>
