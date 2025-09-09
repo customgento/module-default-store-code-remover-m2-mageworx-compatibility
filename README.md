@@ -15,4 +15,4 @@ This module is an extension of the Default Store Code Remover M2 module, specifi
 [OSL - Open Software Licence 3.0](https://opensource.org/licenses/osl-3.0.php)
 
 ## Copyright
-&copy; 2021 - present CustomGento GmbH
+&copy; 2025 - present CustomGento GmbH
