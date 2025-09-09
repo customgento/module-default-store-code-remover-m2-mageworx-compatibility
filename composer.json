@@ -1,0 +1,26 @@
+{
+    "name": "customgento/module-default-store-code-remover-m2-mageworx-compatibility",
+    "description": "Magento 2 module to remove default store code from URLs - MageWorx compatibility",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Team CustomGento",
+            "email": "info@customgento.com"
+        }
+    ],
+    "require": {
+        "customgento/module-default-store-code-remover-m2": "^2.0",
+        "php": "~7.3.0||~7.4.0||~8.1.0||~8.2.0||~8.3.0||~8.4.0",
+        "magento/module-store": "~101.0",
+        "mageworx/module-seobase": "^2.13"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "CustomGento\\DefaultStoreCodeRemoverMageworxCompat\\": ""
+        }
+    }
+}
